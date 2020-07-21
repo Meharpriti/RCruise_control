@@ -9,17 +9,18 @@ def generate_launch_description():
             node_name='UI',
 	    output='screen'	    
         ),
+	Node(
+            package='cruise_controller',
+            node_executable='cruise',
+            node_name='algorithm_node',
+	    output='screen'
+        ),
         Node(
             package='cruise_controller',
             node_executable='stub',
             node_name='stub',
 	    output='screen'
-        ),
-        Node(
-            package='cruise_controller',
-            node_executable='cruise',
-            node_name='algorithm_node',
-	    output='screen'
         )
+        
     ])
 
