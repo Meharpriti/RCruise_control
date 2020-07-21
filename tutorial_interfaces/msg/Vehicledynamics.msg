@@ -1,0 +1,11 @@
+uint32 mass
+uint32 load
+uint32 desired_velocity
+int32 gas_pedal
+float32 drag_coefficient
+float32 air_density
+uint32 cross_section_area
+uint32 thrust
+uint32 max_inc
+uint32 min_dec
+float32 jerk
